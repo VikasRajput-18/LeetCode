@@ -1,0 +1,15 @@
+var firstMissingPositive = function (nums) {
+    let num = 1
+    nums = nums.sort()
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] === num && nums[i] >= 1) {
+            num++
+        }
+    }
+
+    return num
+}
+
+console.log(firstMissingPositive([1, 2, 0]))
+console.log(firstMissingPositive([3, 4, -1, 1]))
+console.log(firstMissingPositive([7, 8, 9, 11, 12]))

@@ -10,8 +10,8 @@ function isPalindrome(s) {
       left++;
       right--;
     }
-}
-return true
+  }
+  return true
 }
 
-console.log(isPalindrome("abba"));
+console.log(isPalindrome("A man, a plan, a canal: Panama"));
