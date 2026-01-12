@@ -17,5 +17,3 @@ var search = function (nums, target) {
 };
 
 let nums = [2], target = 2
-
-console.log(search(nums, target))
